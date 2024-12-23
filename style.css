@@ -1,0 +1,11 @@
+.nav-container{
+    background-color: #1090D8;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    
+}
+
+.logo img{
+    max-width: 120px;
+}
