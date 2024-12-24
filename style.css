@@ -57,7 +57,7 @@
 input{
     padding: 8px;
 }
-#tri-cal-btn{
+.btn{
     display: flex;
     width: 100%;
     justify-content: center;
