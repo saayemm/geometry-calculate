@@ -13,16 +13,123 @@
             <nav>
                 <div class="nav-container">
                     <div class="logo"><a href=""><img src="Interactive Geometry Genius.png" alt=""></a></div>
-                    <div><button>Blog</button></div>
+                    <div><button class="blog-btn">Blog</button></div>
                 </div>
             </nav>
         </section>
 
         <!-- Main Section -->
-        <section></section>
+        <section>
+            <div class="container">
+                <!-- triangle -->
+                <div id="card">
+                    <img class="main-img" src="triangle.png" alt="">
+                    <h3>Triangle</h3>
+                    <p>Area (A) = 0.5 * b * h</p>
+                   <div class="input-container">
+                    <input id="base" type="text" placeholder="b">
+                    <span>cm</span>
+                    <input id="height" type="text" placeholder="h">
+                    <span>cm</span>
+                   </div>
+
+                    <p class="result"><span>Area: </span><span id="show-result">0</span><span>cm<sup>2</sup></span></p>
+
+                    <button id="tri-cal-btn">Calculate</button>
+                </div>
+              
+                <!-- Rectangle -->
+                <div id="card">
+                    <img class="main-img" src="rectangle.png"">
+                    <h3>Rectangle</h3>
+                    <p>Area (A) =w * l</p>
+                   <div class="input-container">
+                    <input id="base" type="text" placeholder="w">
+                    <span>cm</span>
+                    <input id="height" type="text" placeholder="l">
+                    <span>cm</span>
+                   </div>
+
+                    <p class="result"><span>Area: </span><span id="show-result">0</span><span>cm<sup>2</sup></span></p>
+
+                    <button id="tri-cal-btn">Calculate</button>
+                </div>
+
+                <!-- Parallelogram -->
+                <div id="card">
+                    <img class="main-img" src="parallelogram.png" alt="">
+                    <h3>Parallelogram</h3>
+                    <p>Area (A) = b * h</p>
+                   <div class="input-container">
+                    <input id="base" type="text" placeholder="b">
+                    <span>cm</span>
+                    <input id="height" type="text" placeholder="h">
+                    <span>cm</span>
+                   </div>
+
+                    <p class="result"><span>Area: </span><span id="show-result">0</span><span>cm<sup>2</sup></span></p>
+
+                    <button id="tri-cal-btn">Calculate</button>
+                </div>
+
+                <!-- Rhombus -->
+                <div id="card">
+                    <img class="main-img" src="rhombus.png" alt="">
+                    <h3>Rhombus</h3>
+                    <p>Area (A) = 0.5 * b1 * b2</p>
+                   <div class="input-container">
+                    <input id="base" type="text" placeholder="b1">
+                    <span>cm</span>
+                    <input id="height" type="text" placeholder="b2">
+                    <span>cm</span>
+                   </div>
+
+                    <p class="result"><span>Area: </span><span id="show-result">0</span><span>cm<sup>2</sup></span></p>
+
+                    <button id="tri-cal-btn">Calculate</button>
+                </div>
+
+                <!-- Pentagon -->
+                <div id="card">
+                    <img class="main-img" src="pentagon.png" alt="">
+                    <h3>Pentagon</h3>
+                    <p>Area (A) = 0.5 * p * b</p>
+                   <div class="input-container">
+                    <input id="base" type="text" placeholder="p">
+                    <span>cm</span>
+                    <input id="height" type="text" placeholder="b">
+                    <span>cm</span>
+                   </div>
+
+                    <p class="result"><span>Area: </span><span id="show-result">0</span><span>cm<sup>2</sup></span></p>
+
+                    <button id="tri-cal-btn">Calculate</button>
+                </div>
+
+                <!-- Ellipse -->
+                <div id="card">
+                    <img class="main-img" src="ellipse.png" alt="">
+                    <h3>Ellipse</h3>
+                    <p>Area (A) = &pi;ab</p>
+                   <div class="input-container">
+                    <input id="base" type="text" placeholder="a">
+                    <span>cm</span>
+                    <input id="height" type="text" placeholder="b">
+                    <span>cm</span>
+                   </div>
+
+                    <p class="result"><span>Area: </span><span id="show-result">0</span><span>cm<sup>2</sup></span></p>
+
+                    <button id="tri-cal-btn">Calculate</button>
+                </div>
+        </section>
 
         <!-- Footer Section -->
-        <section></section>
+        <section>
+            <footer>
+                <p>&copy; <span id="year"> </span> All right reserved</p>
+            </footer>
+        </section>
     </main>
 
     <script src="script.js"></script>

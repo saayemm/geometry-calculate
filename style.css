@@ -1,11 +1,87 @@
+
 .nav-container{
-    background-color: #1090D8;
+    background-color: #E7F4FB;
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
-    
+    align-items: center;
+    padding: 16px 24px;
+    /* position: fixed;
+    width:100%;
+    margin: auto ;      
+    top: 0; */
+
 }
 
 .logo img{
     max-width: 120px;
+}
+
+.blog-btn{
+    background-color: #1090D8;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    margin-top: 64px;
+    max-width: 1240px;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+#card{
+    border: 1px solid #0b92db;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 32px;
+    align-items: center;
+}
+
+.main-img{
+    max-width: 300px;
+}
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+input{
+    padding: 8px;
+}
+#tri-cal-btn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    cursor: pointer;
+    background-color: #1090D8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+   text-transform: uppercase;
+}
+.result{
+    color: green;
+    font-size: 20px;
+    font-weight: semi-bold;
+}
+
+footer{
+    background-color: #E7F4FB;
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
 }
